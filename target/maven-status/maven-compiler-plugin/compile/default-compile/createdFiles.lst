@@ -1,0 +1,12 @@
+com/ecommerce/price/controller/model/PriceResponse.class
+com/ecommerce/price/repository/model/Price.class
+com/ecommerce/price/repository/model/Brand.class
+com/ecommerce/price/PriceApplication.class
+com/ecommerce/price/repository/model/Product$ProductBuilder.class
+com/ecommerce/price/repository/model/Brand$BrandBuilder.class
+com/ecommerce/price/repository/PriceRepository.class
+com/ecommerce/price/service/PriceService.class
+com/ecommerce/price/controller/GetPriceController.class
+com/ecommerce/price/repository/model/Product.class
+com/ecommerce/price/controller/model/PriceResponse$PriceResponseBuilder.class
+com/ecommerce/price/repository/model/Price$PriceBuilder.class
