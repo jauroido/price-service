@@ -3,6 +3,7 @@ package com.ecommerce.price.controller;
 import com.ecommerce.price.controller.model.PriceResponse;
 import com.ecommerce.price.service.PriceService;
 import java.time.LocalDateTime;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,9 +11,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/v1/prices")
+@RequestMapping("/prices")
+@RequiredArgsConstructor
 public class GetPriceController {
-  private PriceService priceService;
+  private final PriceService priceService;
 
   @GetMapping
   public ResponseEntity<PriceResponse> getPrice(
